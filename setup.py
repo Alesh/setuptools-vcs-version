@@ -1,6 +1,11 @@
 from setuptools import setup
 
 
+def long_description():
+    with open('README.md') as README_file:
+        return README_file.read()
+
+
 setup(
     name='setuptools-vcs-version',
     version='0.9.0',
@@ -8,6 +13,9 @@ setup(
     author='Alexey Poryadin',
     author_email='alexey.poryadin@gmail.com',
     description='Automatically set package version from VCS.',
+    long_description=long_description(),
+    long_description_content_type='text/markdown',
+    keywords='setuptools git mercurial darcs subversion bazaar fossil version-control',
     license='http://opensource.org/licenses/MIT',
     classifiers=[
         'Framework :: Setuptools Plugin',
