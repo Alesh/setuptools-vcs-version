@@ -15,14 +15,14 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
     ],
-    py_modules=['setuptools-vcs-version'],
+    py_modules=['setuptools_vcs_version'],
     install_requires=[
         'dunamai >= 1.1.0',
     ],
     entry_points="""
         [distutils.setup_keywords]
-        version_config = setuptools-vcs-version:applay_version_config
+        version_config = setuptools_vcs_version:applay_version_config
         [console_scripts]
-        setuptools-vcs-version = setuptools-vcs-version:get_vcs_version
+        setuptools-vcs-version = setuptools_vcs_version:get_vcs_version
     """,
 )
