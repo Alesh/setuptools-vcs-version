@@ -43,6 +43,13 @@ If there are no any VCS, the version specified by `starting_version` will be use
 Note that the "v" prefix on the tag is required, unless you specify
 a different tag style with `pattern` in the `version_config`.
 
+### This package is placed on PyPi
+This package is also published on [PyPi] And you can install it just run:
+```bash
+pip install setuptools-vcs-version
+```
+
 [dunamai]: https://github.com/mtkennerly/dunamai/blob/master/README.md#features
 [better-setuptools-git-version]: https://github.com/vivin/better-setuptools-git-version
 [dunamai features]: https://github.com/mtkennerly/dunamai/blob/master/README.md
+[PyPi]: https://pypi.org/project/setuptools-vcs-version/
