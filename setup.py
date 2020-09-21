@@ -8,10 +8,11 @@ def long_description():
 
 setup(
     name='setuptools-vcs-version',
-    version='0.9.0',
+    version='0.9.2',
     url='https://github.com/alesh/setuptools-vcs-version',
     author='Alexey Poryadin',
     author_email='alexey.poryadin@gmail.com',
+    maintainer='Alexey Poryadin, bobatsar',
     description='Automatically set package version from VCS.',
     long_description=long_description(),
     long_description_content_type='text/markdown',
